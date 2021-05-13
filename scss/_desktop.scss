@@ -1,12 +1,13 @@
-@media screen and (min-width:1250px){
+@media screen and (min-width:1100px){
 
     .article{
         flex-direction: row;
-        margin: 20em;
+        margin: 18em;
 
         &-img{
-            width: 42%;
+            width: 40%;
             height: auto;
+            object-position: 0 0;
             border-top-left-radius: 10px;
             border-top-right-radius: 0;
             border-bottom-left-radius: 10px;
@@ -16,14 +17,14 @@
 
             .title{
                 font-size: 1.2rem;
-                padding-left: 1.6em;
-                padding-right: 1.6em;
+                padding-left: 2.4em;
+                padding-right: 2.4em;
                 padding-top: 2em;
                 margin: 0 0.8em;
             }
             .content{
-                padding-left: 3.2em;
-                padding-right: 3.2em;
+                padding-left: 4em;
+                padding-right: 4em;
                 padding-bottom: 2em;
                 margin: 0 0.4em;
             }
@@ -32,11 +33,11 @@
         .author{
 
             &-details{
-                margin-left: 3em;
+                margin-left: 4em;
             }
 
             .share-btn > img{
-                margin-right: 3em;
+                margin-right: 4em;
             } 
         }
 
