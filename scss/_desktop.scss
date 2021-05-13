@@ -1,0 +1,48 @@
+@media screen and (min-width:1250px){
+
+    .article{
+        flex-direction: row;
+        margin: 20em;
+
+        &-img{
+            width: 42%;
+            height: auto;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 0;
+            border-bottom-left-radius: 10px;
+        }
+
+        &-body{
+
+            .title{
+                font-size: 1.2rem;
+                padding-left: 1.6em;
+                padding-right: 1.6em;
+                padding-top: 2em;
+                margin: 0 0.8em;
+            }
+            .content{
+                padding-left: 3.2em;
+                padding-right: 3.2em;
+                padding-bottom: 2em;
+                margin: 0 0.4em;
+            }
+        }
+
+        .author{
+
+            &-details{
+                margin-left: 3em;
+            }
+
+            .share-btn > img{
+                margin-right: 3em;
+            } 
+        }
+
+        .share{
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+    }   
+}
