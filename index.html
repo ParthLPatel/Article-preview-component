@@ -49,8 +49,8 @@
       </div>
     </div>
 
-    <!-- code for social media links on share-btn-img onclick-->
-    <div class="share" id="id-share">
+    <!-- code for social media links on share-btn-img onclick -->
+    <div class="share" id="id-share-mobile">
       <div class="share-links">
         <p>SHARE</p>
         <a><img src="images/icon-facebook.svg" alt="fb-icon"></a>
@@ -61,7 +61,6 @@
         <img id="btn-img" src="images/icon-share.svg" alt="icon-share" >
       </div>
     </div>
-  </div>
 
 </article>
   
@@ -69,13 +68,15 @@
 <script>
 
   function shareBtn() {
-    var authorID = document.getElementById("id-author");
-    authorID.style.display = "none";
 
-    var shareID = document.getElementById("id-share");
-    shareID.style.display = "flex";
+      var authorID = document.getElementById("id-author");
+      authorID.style.display = "none";
 
-  }
+      var shareID = document.getElementById("id-share-mobile");
+      shareID.style.display = "flex";
+
+    }
+
 </script>
 
 </body>
